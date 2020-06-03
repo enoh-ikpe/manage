@@ -10,11 +10,11 @@ padding: 14px 26px;
 font-size: 16px;
 }
 .btn-warning{
-    background-color:white;
+background-color:white;
 border-radius: 50px;
 padding: 14px 26px;
 font-size: 16px;
-color:rgb(246, 174, 149) ;
+color:rgb(246, 174, 149);
 }
 .row{
     margin-left: -56px;
@@ -93,12 +93,15 @@ h3{
 }
 .simplify{
     background-color: rgb(243, 97, 60);
-    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 h4{
     font-size: 2.5rem;
     padding: 5rem;
     font-weight: 600;
+    color: white;
 }
 
 
@@ -118,5 +121,13 @@ h4{
     position: absolute;
     top: -20px;
     right: 7rem;
+}
+.simplify{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.margin{
+margin-top: 3rem;
 }
 }
