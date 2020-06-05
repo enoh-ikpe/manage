@@ -176,4 +176,8 @@ h4{
 .icons{
     padding-top: 1rem;
 }
+footer{
+    /* align-items: center; */
+    text-align: center;
+}
 }
