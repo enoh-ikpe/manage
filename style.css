@@ -127,6 +127,13 @@ background-color: rgb(30, 30, 38);
     color: rgb(217, 217, 217);
     font-size: 13px;
 }
+.fab{
+    color: white;
+    word-spacing: -2.5rem;
+}
+.icons{
+    padding-top: 5rem;
+}
 
 
 
@@ -137,6 +144,9 @@ background-color: rgb(30, 30, 38);
 @media screen and (min-width: 320px) and (max-width:765px){
 .bg-white{
     margin-left: 0px;
+}
+body{
+    padding: 0px;
 }
 .row{
     margin-left: 0px;
@@ -156,6 +166,10 @@ margin-top: 3rem;
 }
 h4{
     margin-left: 0px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.btn-warning{
     margin-bottom: 3rem;
 }
 }
